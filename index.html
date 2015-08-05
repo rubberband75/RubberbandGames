@@ -15,6 +15,7 @@
   .gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}
 </style>
 
+<link rel="shortcut icon" href="favicon.ico">
 <title>Rubberband Games</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,20 +47,12 @@
   <h1>Rubberband Games</h1>
 </header>
 
-<!--
-<div class="w3-topnav w3-center w3-theme w3-padding-24 w3-card-4">
-  <a href="http://www.w3schools.com/w3css" title="Go To W3.CSS"><i class="material-icons">home</i></a>
-  <a href="javascript:void(0)">Link 1</a>
-  <a href="javascript:void(0)">Link 2</a>
-  <a href="javascript:void(0)">Link 3</a>
-  <a href="javascript:void(0)">Link 4</a>
-</div>
--->
 
-<div class="w3-image">
-  <img class="testimg" src="./Demo W3.CSS_files/w3csstestbg.jpg" alt="boat" style="width:100%;min-height:550px;max-height:700px;">
+<!-- Image Container -->
+<div id="home" class="w3-image w3-card-8">
+  <img class="testimg" src="half_ball2.jpg" alt="boat" style="width:100%;">
   <div class="w3-title w3-margin-64">  
-    <a href="http://www.w3schools.com/w3css/demo_website.htm#id01" class="w3-animate-opacity w3-btn w3-xlarge w3-theme" title="Go To W3.CSS">LEARN W3.CSS</a>
+    <a href="#id01" class="w3-animate-opacity w3-btn w3-xlarge w3-theme" title="Go To W3.CSS">LEARN W3.CSS</a>
   </div>
 </div>
 
@@ -84,7 +77,7 @@
 </div>
 
 <!-- Container -->
-<div class="w3-container w3-padding-64 w3-center">
+<div id="team" class="w3-container w3-padding-64 w3-center">
 <h2>OUR TEAM</h2>	
 <p>The two guys that make all this happen...</p>
 				
@@ -93,7 +86,7 @@
 <div class="w3-half">
   <img src="http://assets22.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="Boss" style="width:50%; background-color: grey" class="w3-circle">
   <h3>Charmander</h3>
-  <p>Idea man  & Web Design</p>
+  <p>Idea man  &  Web Design</p>
 </div>
 
 <div class="w3-half">
@@ -107,51 +100,39 @@
 </div>
 
 <!-- Row -->
-<div class="w3-row-padding w3-padding-64 w3-theme-l1">
+<div id="games" class="w3-row-padding w3-padding-64 w3-theme-l1">
 
 <div class="w3-quarter">
-<h2>Our Portfolio</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>OUR GAMES</h2>
+<p></p>
 </div>
 
 <div class="w3-quarter">
-<div class="w3-card-2 w3-white">
+<div class="w3-card-8 w3-white">
   <img src="./Demo W3.CSS_files/img_vernazza.png" alt="Vernazza" style="width:100%">
   <div class="w3-container">
-  <h3>Customer 1</h3>
-  <h4>Trade</h4>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
+  <h3>Meteor Jumper</h3>
+  <h4><i>Jump for your life!</i></h4>
   </div>
   </div>
 </div>
 
 <div class="w3-quarter">
-<div class="w3-card-2 w3-white">
+<div class="w3-card-8 w3-white">
   <img src="./Demo W3.CSS_files/img_5terre.png" alt="Cinque Terre" style="width:100%">
   <div class="w3-container">
-  <h3>Customer 2</h3>
-  <h4>Trade</h4>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
+  <h3>Sidewinder</h3>
+  <h4><i>Keep on track...</i></h4>
   </div>
   </div>
 </div>
 
 <div class="w3-quarter">
-<div class="w3-card-2 w3-white">
+<div class="w3-card-8 w3-white">
   <img src="./Demo W3.CSS_files/img_monterosso.png" alt="Monterosso" style="width:100%">
   <div class="w3-container">
-  <h3>Customer 3</h3>
-  <h4>Trade</h4>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
+  <h3>0G Arena</h3>
+  <h4><i>VR at its finest.</i></h4>
   </div>
   </div>
 </div>
@@ -161,21 +142,15 @@
 <!-- Side Navigation -->
 <nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-teal">Close ×</a>
-  <a href="javascript:void(0)">Link 1</a>		
-  <a href="javascript:void(0)">Link 2</a>		
-  <a href="javascript:void(0)">Link 3</a>		
-  <a href="javascript:void(0)">Link 4</a>		
-  <a href="javascript:void(0)">Link 5</a>		
+  <a href="#home">Home</a>		
+  <a href="#team">Team</a>		
+  <a href="#games">Games</a>
+  <a href="#contact">Contact</a>
 </nav>
 
-<!-- Container -->
-<div class="w3-container" style="position:relative">
-  <a onclick="w3_open()" class="w3-btn-floating-large w3-teal" style="position:absolute;top:-28px;right:24px;z-index:0;">
-  <i class="material-icons">add</i></a>
-</div>
 
-<!-- Container -->
-<div class="w3-container w3-padding-64">
+<!-- Contact Container -->
+<div id="contact" class="w3-container w3-padding-64">
   <h2 class="w3-padding-bottom">Contact Us</h2>
   <div class="w3-row">
     <div class="w3-col m5">
